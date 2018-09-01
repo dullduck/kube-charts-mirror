@@ -7,7 +7,7 @@ from contextlib import closing
 import os
 from urllib.parse import urlparse
 
-# 转自https://www.zhihu.com/question/41132103/answer/93438156 
+
 def wget(url, file_name):
     with closing(requests.get(url, stream=True)) as response:
         chunk_size = 1024  # 单次请求最大值
@@ -94,4 +94,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
