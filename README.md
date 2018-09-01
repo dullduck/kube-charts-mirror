@@ -51,7 +51,7 @@ GIT_USER_EMAIL: git config 中的user.email
 UPDATE_INTERVAL: 更新间隔，秒为单位，默认86400(1天)
 ```
 
-4.在`fork`后的项目`settings`里设置开启`gitPages`，定位到`master`分支的`docs`
+* 4.在`fork`后的项目`settings`里设置开启`gitPages`，定位到`master`分支的`docs`
 
 感谢@burdenbear 的贡献。
 
