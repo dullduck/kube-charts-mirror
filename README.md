@@ -9,15 +9,6 @@ kubernetes helm 国内镜像，每一天更新一次
 ## 使用方式：
 ```shell
 $ helm repo add stable https://cnych.github.io/kube-charts-mirror/
-```
-
-或者参照以下步骤搭建您自己的仓库：
-
-* 1.fork 该项目
-
-* 2.clone代码到一台能访问国外地址的服务器
-```shell
-$ git clone https://github.com/${YourUsername}/kube-charts-mirror.git
 "stable" has been added to your repositories
 $ helm repo list
 NAME   	URL
@@ -30,6 +21,15 @@ bitnami	https://charts.bitnami.com/bitnami
 ```shell
 $ helm search stable
 ......
+```
+
+或者参照以下步骤搭建您自己的仓库：
+
+* 1.fork 该项目
+
+* 2.clone代码到一台能访问国外地址的服务器
+```shell
+$ git clone https://github.com/${YourUsername}/kube-charts-mirror.git
 ```
 
 * 3.启动更新容器(将GIT_REPO，GIT_USER_NAME，GIT_USER_EMAIL替换成您自己的)
