@@ -1,6 +1,17 @@
 # kube-charts-mirror
 kubernetes helm 国内镜像，每一天更新一次
 
+
+> 梯子的确没钱续费了。
+
+
+## 推荐
+微软也提供了`helm`的仓库, 推荐使用微软的仓库：
+
+* stable: http://mirror.azure.cn/kubernetes/charts/
+* incubator:	http://mirror.azure.cn/kubernetes/charts-incubator/
+
+
 ## 问题
 `Helm`官方`Charts`仓库 https://kubernetes-charts.storage.googleapis.com/ 需要翻墙访问，阿里云提供了一个镜像仓库 https://kubernetes.oss-cn-hangzhou.aliyuncs.com/charts 然而从11月开始好像就没有更新过。
 
